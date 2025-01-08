@@ -411,6 +411,7 @@ section {
     font-weight: 400;
     color: var(--dark-2);
     margin-bottom: 30px;
+    padding-right: 30px;
 }
 
 .social_box img {
@@ -427,14 +428,14 @@ section {
 }
 
 .footer_content {
-    gap: 120px;
+    gap: 50px;
     align-items: start;
 }
 
 .footer_c_right form input,
 .footer_c_right form textarea {
     display: block;
-    width: 60%;
+    width: 80%;
     margin-bottom: 15px;
     padding: 15px 25px;
     border: none;
