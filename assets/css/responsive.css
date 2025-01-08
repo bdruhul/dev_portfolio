@@ -1,0 +1,200 @@
+/* Media Queries */
+@media screen and (max-width: 576px) {
+
+    /* Banner Section CSS Part Start */
+    .banner {
+      padding: 30px 0px;
+    }
+
+    .banner_heading {
+      width: 80% !important;
+    }
+
+    .banner_sub_heading {
+      width: 80%;
+    }
+    /* Banner Section CSS Part End */
+    /* About Section CSS Part Start */
+.about {
+    width: 100%;
+    padding-top: 70px;
+  }
+
+  .about_left {
+    width: 100%;
+    display: block;
+  }
+
+  .about_right {
+    width: 100% !important;
+    text-align: left;
+    padding-top: 70px;
+  }
+
+  .about_left img {
+    width: 100%;
+  }
+
+  .social_icon_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about_heading {
+    font-family: var(--work_sans);
+    font-size: 30px;
+    font-weight: 700;
+    color: #101010;
+    margin-bottom: 20px;
+    padding: 0 70px;
+  }
+
+  .about_text {
+    font-family: var(--work_sans);
+    font-size: 14px;
+    font-weight: 400;
+    color: #101010;
+    margin-bottom: 40px;
+  }
+
+  .about_socila {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .social_icon_list li {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  .social_icon_list li a i {
+    font-size: 20px;
+    color: black;
+  }
+
+  .fa-facebook {
+    color: #1877F2 !important;
+  }
+
+  .fa-instagram {
+    color: #d62976 !important;
+  }
+
+  .fa-pinterest {
+    color: #E60023 !important;
+  }
+  /* About Section CSS Part End */
+
+  /* Card Box Design CSS Part Start */
+  .card_main {
+    padding: 70px 0px;
+  }
+
+  .p_card_box_top {
+    font-family: var(--work_sans);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #101010;
+  }
+
+  .p_card_box_heading {
+    width: 47%;
+    margin: 0 auto;
+    font-family: var(--work_sans);
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+  }
+
+  .card_box_content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 0px;
+  }
+
+  .card_box {
+    text-align: center;
+  }
+
+  .card_box img {
+    width: 100%;
+  }
+
+  .pizza {
+    margin: 15px 0px;
+    padding: 8px 16px;
+    background-color: #53c30334;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: var(--work_sans);
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .up_dis {
+    font-family: var(--work_sans);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .card_buttom_text {
+    font-family: var(--work_sans);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .card_btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .card_all_btn {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #52C303;
+    border-radius: 5px;
+    font-family: var(--work_sans);
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+  }
+  /* Card Box Design CSS Part End */
+
+  /* Footer Section CSS Part Start */
+  .footer_main {
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../image/social-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+  }
+
+  .footer_content {
+    width: 50%;
+    margin: 0 auto;
+  }
+  /* Footer Section CSS Part End */
+
+  }
+
+  @media (min-width: 577px) and (max-width: 1199.98px) {
+
+
+
+
+  }
